@@ -13,7 +13,7 @@ RUN echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/so
 RUN apt-get -y update && apt-get -y install google-chrome-stable --no-install-recommends
 
 # Setup version variables
-ENV CHROMEDRIVER_VERSION 84.0.4147.30
+ENV CHROMEDRIVER_VERSION 85.0.4183.87
 ENV ALLURE_VERSION 2.13.5
 
 # Download ChromeDriver
