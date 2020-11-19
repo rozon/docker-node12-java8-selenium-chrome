@@ -1,5 +1,6 @@
-
 FROM node:12-stretch
+
+LABEL maintainer="Anthony Rozon <arozonm@gmail.com>"
 
 # Install dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
